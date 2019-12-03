@@ -39,6 +39,13 @@ request-promise@^4.2.5:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
+simple-proxy-scraper@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/simple-proxy-scraper/-/simple-proxy-scraper-0.1.0.tgz#a4403f022612da0d1c374aed6567d778d5e8c713"
+  integrity sha512-QscuFRZp5nVKIyO9+Y7BPmEAATHQoybnQ0kSWW5ZUJ7LV/2J4A7zNhih8Fn072qaM4vUI8ahhOtqinH+VDdFyw==
+  dependencies:
+    request-promise "^4.2.5"
+
 stealthy-require@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"

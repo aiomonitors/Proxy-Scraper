@@ -1,5 +1,5 @@
 {
-  "name": "proxy-scraper",
+  "name": "simple-proxy-scraper",
   "version": "0.1.0",
   "description": "A package that has the ability to scrape a multitude of proxies from the internet",
   "main": "index.js",
@@ -7,6 +7,7 @@
   "author": "Shihab Chowdhury",
   "license": "MIT",
   "dependencies": {
-    "request-promise": "^4.2.5"
+    "request-promise": "^4.2.5",
+    "simple-proxy-scraper": "^0.1.0"
   }
 }
