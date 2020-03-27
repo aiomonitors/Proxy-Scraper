@@ -43,7 +43,8 @@ class ProxyScrapeAPI {
         })
         let body = await res.body;
         let proxies = res.body.split('\n').map(line => {if(line.length > 5 && line !== undefined) {return line.replace('\r', '');}})
-        return proxies.filter(Boolean);
+        console.log(proxies.join('\n'))
+	return proxies.filter(Boolean);
     }
 
     async getAmountProxies(options) {
@@ -73,5 +74,6 @@ function test() {
         }).then(data => {console.log(data)})
     })
 }
-
+test();
 module.exports = ProxyScrapeAPI;
+//epic

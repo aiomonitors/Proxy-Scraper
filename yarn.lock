@@ -46,6 +46,14 @@ simple-proxy-scraper@^0.1.0:
   dependencies:
     request-promise "^4.2.5"
 
+simple-proxy-scraper@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/simple-proxy-scraper/-/simple-proxy-scraper-0.1.1.tgz#0240ed9925e9422317916a3c6e322966324ea966"
+  integrity sha512-zldxtL7o3lFNylDD7UJJqL1V3s5VPsHuBb2xweGnG6qdZ6Z4uzg76NVVBiji1DTQPB7gcb5+83GLXMYUT2oRBw==
+  dependencies:
+    request-promise "^4.2.5"
+    simple-proxy-scraper "^0.1.0"
+
 stealthy-require@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"

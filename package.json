@@ -1,13 +1,16 @@
 {
-  "name": "simple-proxy-scraper",
-  "version": "0.1.0",
-  "description": "A package that has the ability to scrape a multitude of proxies from the internet",
-  "main": "index.js",
-  "repository": "https://github.com/aiomonitors/Proxy-Scraper",
-  "author": "Shihab Chowdhury",
-  "license": "MIT",
-  "dependencies": {
-    "request-promise": "^4.2.5",
-    "simple-proxy-scraper": "^0.1.0"
-  }
+    "name": "simple-proxy-scraper",
+    "version": "0.1.2",
+    "description": "A package that has the ability to scrape a multitude of proxies from the internet",
+    "main": "index.js",
+    "repository": "https://github.com/aiomonitors/Proxy-Scraper",
+    "author": "Shihab Chowdhury",
+    "license": "MIT",
+    "dependencies": {
+        "request-promise": "^4.2.5",
+        "simple-proxy-scraper": "^0.1.1"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
 }
